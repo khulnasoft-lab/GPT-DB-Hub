@@ -255,22 +255,14 @@ tests-no-zope = ["attrs[tests-mypy]", "cloudpickle", "hypothesis", "pympler", "p
 
 [[package]]
 name = "bitsandbytes"
-version = "0.43.1"
+version = "0.41.3.post2"
 description = "k-bit optimizers and matrix multiplication routines."
 optional = false
 python-versions = "*"
 files = [
-    {file = "bitsandbytes-0.43.1-py3-none-manylinux_2_24_x86_64.whl", hash = "sha256:a81c826d576d6d691c7b4a7491c8fdc0f37f769795d6ca2e54afa605d2c260a3"},
-    {file = "bitsandbytes-0.43.1-py3-none-win_amd64.whl", hash = "sha256:52c1c7189a6ca006555a9663e544e75f40520a97a26e075411f9f9aca0771fcd"},
+    {file = "bitsandbytes-0.41.3.post2-py3-none-any.whl", hash = "sha256:ceb301a3d4e6bf52bdad8d09f3064ac194bdfdeae535994c0315bd2ef7639cca"},
+    {file = "bitsandbytes-0.41.3.post2.tar.gz", hash = "sha256:7d25a51fb3b74b58e569473f8b70a5239124c0593dc053479c41cf2cd6730502"},
 ]
-
-[package.dependencies]
-numpy = "*"
-torch = "*"
-
-[package.extras]
-benchmark = ["matplotlib", "pandas"]
-test = ["scipy"]
 
 [[package]]
 name = "black"
@@ -1859,6 +1851,7 @@ description = "CUDA profiling tools runtime libs."
 optional = false
 python-versions = ">=3"
 files = [
+    {file = "nvidia_cuda_cupti_cu12-12.6.37-py3-none-manylinux2014_aarch64.whl", hash = "sha256:4e9ca052bff2adf2e16c355f5c34a3ab1c3450d1685abbbfce1dd790e1e58fc1"},
     {file = "nvidia_cuda_cupti_cu12-12.6.37-py3-none-manylinux2014_x86_64.whl", hash = "sha256:29430c14b7f3ace887043a246d94871eb8caaab13a17a513410d0169de2c7252"},
     {file = "nvidia_cuda_cupti_cu12-12.6.37-py3-none-win_amd64.whl", hash = "sha256:3c41904660659f8a0964420f23ecd012e02de760a378e7f12a0f90af02848101"},
 ]
@@ -1922,13 +1915,14 @@ files = [
 
 [[package]]
 name = "nvidia-cusolver-cu12"
-version = "11.4.5.107"
+version = "11.6.4.38"
 description = "CUDA solver native runtime libraries"
 optional = false
 python-versions = ">=3"
 files = [
-    {file = "nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl", hash = "sha256:8a7ec542f0412294b15072fa7dab71d31334014a69f953004ea7a118206fe0dd"},
-    {file = "nvidia_cusolver_cu12-11.4.5.107-py3-none-win_amd64.whl", hash = "sha256:74e0c3a24c78612192a74fcd90dd117f1cf21dea4822e66d89e8ea80e3cd2da5"},
+    {file = "nvidia_cusolver_cu12-11.6.4.38-py3-none-manylinux2014_aarch64.whl", hash = "sha256:33473bfbcb00e73ae155eb2b949043496ec9d8b3b6d3e4dd3527f2bdf384757d"},
+    {file = "nvidia_cusolver_cu12-11.6.4.38-py3-none-manylinux2014_x86_64.whl", hash = "sha256:53df36d3986f51a4665e748154ab226505da4783e0588a60f70b5dc5787b560d"},
+    {file = "nvidia_cusolver_cu12-11.6.4.38-py3-none-win_amd64.whl", hash = "sha256:9796b2b78eda9113c1fef3cde43923d087d39aa0ad0a1d8c7b42a27110ba24be"},
 ]
 
 [package.dependencies]
@@ -4495,4 +4489,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.13"
-content-hash = "d8dcb49fe038e338c5afb1bfe4e71f1f7a8374f69130b6de2bf5af4e36c8755e"
+content-hash = "22756880e1c30c6889b38087b61cb523f8c9701dee355536ca17b0d19681b39f"
